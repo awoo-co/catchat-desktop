@@ -1,0 +1,22 @@
+name: catchat
+summary: a desktop app for catchat
+version: "1.0"
+description: |
+  catchat-desktop is a catchat desktop app.
+base: core22
+confinement: strict
+
+parts:
+  catchat:
+    plugin: python
+    source: .
+    stage-packages:
+      - python3-tkinter
+      - python3-pywebview
+
+apps:
+  catchat:
+    command: bin/catchat
+    plugs:
+      - raw-usb
+      - hardware-observe
