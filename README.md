@@ -1,2 +1,2 @@
 # catchat-desktop
-## catchat desktop app
+## a really lightweight catchat-desktop app

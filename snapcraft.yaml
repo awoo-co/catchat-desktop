@@ -2,7 +2,7 @@ name: catchat
 summary: a desktop app for catchat
 version: "1.0"
 description: |
-  catchat-desktop is a catchat desktop app.
+ a really lightweight catchat-desktop app
 base: core22
 confinement: strict
 
